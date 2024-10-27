@@ -6,7 +6,7 @@
 [x] Coffeeshop 4: Landing Page HTML structure
 [x] Coffeeshop 5: Exercise overview
 [x] Coffeeshop 6: styling the menu
-[ ] Coffeeshop 7: Styling the landing page
+[x] Coffeeshop 7: Styling the landing page
 [ ] Coffeeshop 8:
 
 # Submission for coffeeshop CSS concepts

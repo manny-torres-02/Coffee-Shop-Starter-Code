@@ -35,9 +35,14 @@ h2 {
   /* color: var(--graphite) */
 }
 
+.pink {
+  background-color: var(--nitro-pink);
+}
+
 /* TODO: Check if you need to remove 
  */
-h3 {
+h3,
+.footer h1 {
   font-size: 33px;
   font-weight: 300;
 }
@@ -46,6 +51,8 @@ h3 {
 .nitro {
   color: var(--graphite);
   text-decoration: none;
+  font-weight: 300;
+  font-size: 33px;
 }
 
 ul {
@@ -71,7 +78,8 @@ ul {
   background-size: center;
 }
 
-nav li {
+nav li,
+button {
   font-size: 21px;
   font-weight: 400;
 }
@@ -92,6 +100,11 @@ p {
 
 .bold {
   font-style: bold;
+  font-weight: 700;
+}
+
+.regular-fw {
+  font-weight: 400;
 }
 
 .menu a {
@@ -104,4 +117,13 @@ p {
   text-align: center;
   font-size: 21px;
   font-weight: 400;
+}
+
+footer > section > h3 {
+  margin-top: 0; 
+  margin-bottom: 8px;
+  /* color: red; */
+}
+.icon {
+  width: 50px;
 }

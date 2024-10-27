@@ -1,0 +1,32 @@
+.discount-banner {
+  width: 90%;
+  background-color: var(--graphite);
+  color: white;
+}
+
+.discount-regular {
+  font-size: 45px;
+  /* font-weight: 400px; */
+}
+
+.discount-bold {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+
+button {
+  background-color: var(--nitro-blue);
+  color: white;
+  /* padding: 6px; */
+  border: none;
+}
+
+/* Images  */
+.hero {
+  /* height: 280px; */
+}
+
+.product {
+  height: 280px;
+}
