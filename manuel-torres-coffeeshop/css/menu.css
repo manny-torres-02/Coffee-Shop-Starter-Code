@@ -1,0 +1,45 @@
+.coffee-beans-LF {
+  width: 50px;
+}
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+nav h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.menu a {
+  color: inherit;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.center {
+  text-align: center;
+}
+
+.pink {
+  background-color: var(--nitro-pink);
+}
+
+.grey {
+  text-align: center;
+}
+
+.food-desc {
+  width: 40%;
+  margin: auto;
+}
+
+.price {
+  color: var(--nitro-blue);
+}

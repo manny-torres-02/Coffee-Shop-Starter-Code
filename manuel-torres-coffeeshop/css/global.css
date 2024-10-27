@@ -1,0 +1,107 @@
+/* Variables */
+:root {
+  /* Colors */
+  /* font colors will be graphite, White, nirtroblue  */
+  --nitro-blue: #5bacc3;
+  --nitro-pink: #fff0ed;
+  /* --nitro-pink: aquamarine; */
+  --graphite: #393939;
+  --light-grey: #f7f7f7f7;
+  --white: #fff;
+
+  /* Typography */
+  --open-sans: "Open Sans";
+  --font-weight-300: "300";
+  --font-weight-400: "400";
+  --font-weight-700: "700";
+}
+
+/* @property --h1-h2-style{
+
+} */
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: var(--graphite);
+}
+
+/* TODO: Check if you need to remove 
+ */
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+  /* color: var(--graphite) */
+}
+
+/* TODO: Check if you need to remove 
+ */
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+/* nav/header */
+.nitro {
+  color: var(--graphite);
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  /* font-size: var() */
+}
+
+/* TODO: Is this duplicate? */
+.title-box {
+  background-color: var(--graphite);
+  color: var(--white);
+  width: 300px;
+  height: 200px;
+}
+
+.coffee-circle {
+  background-image: url("../assets/coffee-circle.jpg");
+  /* border: #393939 5px solid; */
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: center;
+}
+
+nav li {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu {
+  background-color: var(--graphite);
+  color: var(--white);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-style: bold;
+}
+
+.menu a {
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-link {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 400;
+}

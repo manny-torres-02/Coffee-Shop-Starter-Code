@@ -7,87 +7,96 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="./css/global.css" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css " />
+    <link rel="stylesheet" type="text/css" href="../css/global.css" />
+    <link rel="stylesheet" type="text/css" href="../css/menu.css" />
     <title>Coffee Shop - Menu</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="" target="_blank">nitro</a>
-        <ul>
-          <li><a href="">MENU</a></li>
-          <li><a href="">Shop Now</a></li>
+        <!-- TODO: width according to the iconagrapohy slide  -->
+        <img
+          class="coffee-beans-LF"
+          src="../assets/coffee-beans-logo-and-footer.svg"
+        />
+        <a class="nitro" href="" target="_blank"><h2>nitro</h2></a>
+        <ul class="">
           <li><a href="">ABOUT</a></li>
+          <li><a href="">MENU</a></li>
+          <li><a href="">SHOP NOW</a></li>
         </ul>
-        <h1>MENU</h1>
-        <ul>
-          <li><a href="#hot-drinks">Hot Drinks</a></li>
-          <li><a href="#cold-drinks">Cold Drinks</a></li>
-          <li><a href="#pastries">Pastries</a></li>
+        <div class="coffee-circle">
+          <h1 class="title-box">MENU</h1>
+        </div>
+
+        <ul class="menu">
+          <!-- <h1 class="title-box">MENU</h1> -->
+          <li class="menu-link"><a href="#hot-drinks">HOT DRINKS</a></li>
+          <li class="menu-link"><a href="#cold-drinks">COLD DRINKS</a></li>
+          <li class="menu-link"><a href="#pastries">PASTRIES</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="hot-drinks">
+      <section class="center pink" id="hot-drinks">
         <h2>Hot Drinks</h2>
 
         <h3>In-house Brew</h3>
 
-        <p>
+        <p class="food-desc italic">
           Our in-house medium roast is a classic balance between sweet vanilla,
           nutty hazelnut, and a smooth low acidity to bring everything together.
         </p>
 
-        <p>$2.99</p>
+        <p class="price">$2.99</p>
 
-        <p>Espresso</p>
+        <h3>Espresso</h3>
 
-        <p>
+        <p class="food-desc italic">
           A balance between bold and smooth, powerful and sweet, our signature
           espresso blend is a complex flavor profile. It features strong notes
           of semi-sweet chocolate and caramel, with mild acidity and a bright
           floral finish.
         </p>
-        <p>$4.99</p>
+        <p class="price">$4.99</p>
       </section>
-      <section id="cold-drinks">
+      <section class="center grey" id="cold-drinks">
         <h2>Cold Drinks</h2>
         <h3>Cold Brew</h3>
 
-        <p>
+        <p class="food-desc italic">
           Our bright and delicious coffee blend, brewed over ice to give you a
           cold coffee freshness with all the flavor of our amazing in-house
           coffee.
         </p>
-        <p>$3.99</p>
+        <p class="price">$3.99</p>
 
-        <p>Iced Chai Latte</p>
+        <h3>Iced Chai Latte</h3>
 
-        <p>
+        <p class="food-desc italic">
           A creamy drink with a kick, this drink features spicy chai tea blended
           with your choice of milk and poured over ice.
         </p>
-        <p>$6.99</p>
+        <p class="price">$6.99</p>
       </section>
-      <section id="pastries">
+      <section class="pink center" id="pastries">
         <h2>Pastries</h2>
-        <p>Bacon Oatmeal Raisin Cookie</p>
+        <h3>Bacon Oatmeal Raisin Cookie</h3>
 
-        <p>
+        <p class="food-desc italic">
           An infused bacon, sugar and egg mixture is folded into a perfect blend
           of oats, flour, raisins and cinnamon to create a soft and chewy
           textured cookie.
         </p>
-        <p>$3.50</p>
+        <p class="price">$3.50</p>
 
-        <p>Blueberry,Lemon and Thyme Muffin</p>
+        <h3>Blueberry,Lemon and Thyme Muffin</h3>
 
-        <p>
+        <p class="food-desc italic">
           Tart and sweet, this classic blueberry and lemon combination comes
           with an earthy twist.
         </p>
-        <p>$2.50</p>
+        <p class="price">$2.50</p>
       </section>
     </main>
     <footer></footer>
