@@ -7,7 +7,11 @@
 [x] Coffeeshop 5: Exercise overview
 [x] Coffeeshop 6: styling the menu
 [x] Coffeeshop 7: Styling the landing page
-[ ] Coffeeshop 8:
+[x] Coffeeshop 8: Linking
+[x] CoffeeShop 9: Relative Units
+[x] Coffeeshop 10: Styling the Menu Page
+[ ] Coffeeshop 11: card component 
+[ ] CoffeeShop 12:
 
 # Submission for coffeeshop CSS concepts
 

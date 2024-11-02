@@ -4,7 +4,6 @@
   /* font colors will be graphite, White, nirtroblue  */
   --nitro-blue: #5bacc3;
   --nitro-pink: #fff0ed;
-  /* --nitro-pink: aquamarine; */
   --graphite: #393939;
   --light-grey: #f7f7f7f7;
   --white: #fff;
@@ -16,82 +15,145 @@
   --font-weight-700: "700";
 }
 
-/* @property --h1-h2-style{
-
-} */
+html {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
 
 body {
   font-family: "Open Sans";
   font-weight: 400;
   color: var(--graphite);
+  height: 100%;
+  width: 100%;
+  margin: 0%;
 }
 
 /* TODO: Check if you need to remove 
  */
 h1,
 h2 {
-  font-size: 60px;
+  font-size: 3.33rem;
   font-weight: 300;
   /* color: var(--graphite) */
-}
-
-.pink {
-  background-color: var(--nitro-pink);
 }
 
 /* TODO: Check if you need to remove 
  */
 h3,
 .footer h1 {
-  font-size: 33px;
+  font-size: 1.83rem;
   font-weight: 300;
 }
 
+/* nav */
+
+.nav {
+  background-color: var(--nitro-pink);
+}
+
+.nav__wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 8rem;
+  padding: 1.5rem 0 1.5rem 1rem;
+}
+
+.nav__logo-image {
+  width: 2.78rem;
+  vertical-align: bottom;
+}
+.nav__logo-image--inline-block {
+  display: inline-block;
+}
 /* nav/header */
-.nitro {
+.nav__link {
   color: var(--graphite);
   text-decoration: none;
   font-weight: 300;
-  font-size: 33px;
+  font-size: 1.83rem;
+}
+.nav__link--inline-block {
+  display: inline-block;
 }
 
-ul {
+.nav__title {
+  margin: 0;
+}
+.nav__list {
   text-decoration: none;
   list-style-type: none;
-  /* font-size: var() */
 }
 
+.nav__list--inline-block {
+  display: inline-block;
+}
+
+.nav__list-item {
+  font-size: 1.167rem;
+}
+
+.nav__list-item--inline-block {
+  display: inline-block;
+}
+
+/* TODO: Separate this out possibly */
+/* TODO: Double check that this font-size is according to style guide. this better matches the image  */
+
+button {
+  font-size: 1.167rem;
+  font-weight: 400;
+}
+
+nav > .nav__wrapper > a > img,
+nav > .nav__wrapper > a,
+nav > .nav__wrapper > a > h2,
+nav > .nav__wrapper > ul,
+nav > .nav__wrapper > ul > li,
+.menu > li {
+  padding: 0 0.5rem;
+}
+
+nav > .nav__wrapper > ul > li > a {
+  text-decoration: none;
+
+  color: var(--graphite);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button {
+  width: 10rem;
+  padding: 1.11rem;
+}
 /* TODO: Is this duplicate? */
 .title-box {
   background-color: var(--graphite);
   color: var(--white);
-  width: 300px;
-  height: 200px;
+  width: 16.67rem;
+  height: 11.11rem;
+  margin: 0;
+  /* text-align: center; */
+  display: inline-block;
 }
 
 .coffee-circle {
   background-image: url("../assets/coffee-circle.jpg");
   /* border: #393939 5px solid; */
+  text-align: center;
   width: 100%;
-  height: 700px;
+  height: 38.89rem;
   background-position: center;
   background-size: center;
 }
 
-nav li,
-button {
-  font-size: 21px;
-  font-weight: 400;
-}
-
-p {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.menu {
-  background-color: var(--graphite);
-  color: var(--white);
+.pink {
+  background-color: var(--nitro-pink);
 }
 
 .italic {
@@ -115,15 +177,44 @@ p {
 
 .menu-link {
   text-align: center;
-  font-size: 21px;
+  font-size: 1.17rem;
   font-weight: 400;
 }
 
 footer > section > h3 {
-  margin-top: 0; 
-  margin-bottom: 8px;
-  /* color: red; */
+  margin-top: 0;
+  margin-bottom: 0.45rem;
 }
+
 .icon {
-  width: 50px;
+  width: 2.78rem;
+}
+
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+footer {
+  height: 13rem;
+  text-align: center;
+  padding: 0 3.333rem;
+  text-align: left;
+}
+.address,
+.hours,
+.socials {
+  vertical-align: middle;
+  height: 180px;
+  width: 280px;
+  margin: 0 3.5rem;
+}
+.address > *,
+.hours > *,
+.socials > * {
+  /* margin: 0; */
+}
+.p-top-1rem {
+  padding-top: 1rem;
 }
