@@ -1,69 +1,76 @@
-h1,
-h2 {
-  font-size: 3.33rem;
-  font-weight: 300;
+:root {
+  /* Colors */
+  /* font colors will be graphite, White, nirtroblue  */
+  --nitro-blue: #5bacc3;
+  --nitro-pink: #fff0ed;
+  --graphite: #393939;
+  --light-grey: #f7f7f7f7;
+  --white: #fff;
+
+  /* Typography */
+  --open-sans: "Open Sans";
+  --font-weight-300: "300";
+  --font-weight-400: "400";
+  --font-weight-700: "700";
 }
 
-h3 {
-  font-size: 1.833rem;
-  font-weight: 300;
-}
-
-nav h1 {
-  font-size: 3.33rem;
-  font-weight: 300;
-}
-/* nav bem */
-.menu a {
-  color: inherit;
-  font-size: 1.17em;
-  font-weight: 400;
-  padding: 0 1rem;
-  border-left: var(--nitro-blue) 0.22rem solid;
-}
-
-.menu-link {
-  text-align: center;
-  font-size: 1.17rem;
-  font-weight: 400;
-}
-
-.menu {
+/* Menu nav section */
+.menu-nav {
   background-color: var(--graphite);
+  display: inline-block;
   color: var(--white);
+  width: 100%;
   margin: 0;
   height: 4.44rem;
+  vertical-align: middle;
   line-height: 4.44rem;
   padding-left: 0;
   text-align: center;
   font-size: 1.75rem;
 }
-/* TODO: Double check that this is according to style guide. this better matches the image  */
-.menu.li {
-  /* height: 4rem; */
-  /* border-left: var(--nitro-blue) 0.4rem solid; */
-}
 
-.center {
+.menu-nav__list-item {
   text-align: center;
+  font-size: 1.17rem;
+  line-height: 2rem;
+  font-weight: 400;
+  display: inline-block;
 }
 
-.grey {
+.menu-nav__link {
+  color: inherit;
+  padding: 0 1rem;
+  border-left: var(--nitro-blue) 0.22rem solid;
+  text-decoration: none;
+}
+
+/*  menu  */
+.menu {
+}
+
+.menu__section {
+  padding-top: 1.11rem;
   text-align: center;
-}
-
-.food-desc {
-  width: 35%;
-  margin: auto;
-}
-
-.price {
-  color: var(--nitro-blue);
-  margin-top: 0.25rem;
-}
-
-.menu-item {
   height: 50%;
   padding-bottom: 0.67rem;
   width: 100%;
+}
+
+.menu__section--pink {
+  background-color: var(--nitro-pink);
+}
+
+.menu__section--grey {
+  background-color: var(--light-grey);
+}
+
+.menu__food-description {
+  width: 35%;
+  margin: auto;
+  font-style: italic;
+}
+
+.menu__price {
+  color: var(--nitro-blue);
+  margin-top: 0.25rem;
 }

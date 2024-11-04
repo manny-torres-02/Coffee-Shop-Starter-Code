@@ -37,8 +37,7 @@ h2 {
   font-weight: 300;
 }
 
-h3,
-.footer h1 {
+h3 {
   font-size: 1.83rem;
   font-weight: 300;
 }
@@ -168,12 +167,6 @@ p {
 
 .icon {
   width: 2.78rem;
-}
-
-.center-vertically {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
 }
 
 .footer {
