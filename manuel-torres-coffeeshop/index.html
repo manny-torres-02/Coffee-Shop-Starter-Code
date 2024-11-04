@@ -13,10 +13,8 @@
   </head>
   <body>
     <header>
-            <!-- TODO: Is everuything supposted to be in the NAv section??? -->
-<nav class="nav">
+      <nav class="nav"> 
         <div class="nav__wrapper">
-          <!-- TODO: width according to the iconagrapohy slide  -->
           <a class="nav__link--inline-block" href="./index.html">
             <img
               class="nav__logo-image nav__logo-image--inline-block"
@@ -31,18 +29,18 @@
             <h2 class="nav__title">nitro</h2>
           </a>
           <ul class="nav__list nav__list--inline-block">
-            <li  class="nav__list-item--inline-block"><a href="./index.html">ABOUT</a></li>
-        <li class="nav__list-item--inline-block"><a href="./pages/menu.html">SHOP NOW</a></li>
-        <li class="nav__list-item--inline-block"><a href="./pages/menu.html">MENU</a></li>
+            <li  class="nav__list-item nav__list-item--inline-block nav__list-item--graphite "><a class="nav__list-item--no-text-decoration"  href="./index.html">ABOUT</a></li>
+            <li class="nav__list-item nav__list-item--inline-block nav__list-item--graphite "><a  class="nav__list-item--no-text-decoration" href="./pages/menu.html">SHOP NOW</a></li>
+            <li class="nav__list-item nav__list-item--inline-block nav__list-item--blue"><a  class="nav__list-item--no-text-decoration nav__list-item--no-text-decoration--blue" href="./pages/menu.html">MENU</a></li>
           </ul>
         </div>
       </nav>
     </header>
       <main>
-        <section class="pink inline-block width100 hero">
-          <div class="nitro-coffee-desc">
-        <h1>Nitro Coffee</h1>
-        <p>
+        <section class="hero">
+          <div class="hero__about-nitro-coffee ">
+        <h1 class="hero__h1">Nitro Coffee</h1>
+        <p class="hero__p">
           Coffee is a brewed drink prepared from roasted coffee beans, the seeds
           of berries from certain coffee species
         </p>
@@ -51,70 +49,62 @@
         <button>SHOP  NOW</button>
               </a>  
             </div>
-            <div class="inline-block coffebeans-hero">
+            <div class="hero__coffeebeans-image ">
         <img class=" vertical-align-middle" src="./assets/coffeebeans-hero.png" alt="coffee bag" />
       </div>
       </section>
-        <section class="products">
-          <h2>Our Products</h2>
-          <!-- TODO: what is this image tag for  -->
-          <!-- <img src="" alt="" /> -->
-          <div class="product-wrapper">
-          <div class="card">
-            <img class="product"
+        <section class="product">
+          <h2 class="product__section-title">Our Products</h2>
+          <div class="product__section-wrapper">
+          <div class="product__card">
+            <img class="product__image"
             src="./assets/coffeebeans-hero.png" alt="Bag of Coffee Beans" />
-            <h3>Coffee Beans</h3>
-            <p>$18.99</p>
+            <h3 class="product__name">Coffee Beans</h3>
+            <p class="product__price">$18.99</p>
           </div>
-          <div class="card">
-            <img class="product" src="./assets/coldbrew.png" alt="Cold Brew" />
-            <h3>Cold Brew</h3>
-            <p>$4.99</p>
+          <div class="product__card">
+            <img class="product__image" src="./assets/coldbrew.png" alt="Cold Brew" />
+            <h3 class="product__name">Cold Brew</h3>
+            <p class="product__price">$4.99</p>
           </div>
-          <div class="card">
-            <img class="product" src="./assets/inhousebrew.png" alt="In-House Brew" />
-            <h3>In-House Brew</h3>
-            <p>$2.99</p>
+          <div class="product__card">
+            <img class="product__image" src="./assets/inhousebrew.png" alt="In-House Brew" />
+            <h3 class="product__name">In-House Brew</h3>
+            <p class="product__price">$2.99</p>
           </div>
         </div>
-                  <!-- TODO: Can i just click the button and have it nacigate elsewhere?  -->
-
           <a href="./pages/menu.html">
           <button>View All</button>
           </a> 
         </section>
         <!-- Discounts -->
-        <section >
-          <div class="discount-banner parent-element">
-          <p class="discount-regular">
-            Get 20% off your first order with code: <span class="discount-bold">FirstNitro</span>
+        <section>
+          <div class="discount-banner">
+          <p class="discount-banner__regular-text">
+            Get 20% off your first order with code: <span class="discount-banner__bold-text">FirstNitro</span>
           </p>
         </div>
         
       </div>
         </section>
       </main>
-      <footer class="pink">
+      <footer class="footer">
         <!-- Address -->
-         <div class="vertical-align-middle p-top-1rem">
-        <section class="inline-block address">
-          <h3>Address</h3>
-          <p>503 Brodway Penthouse </br> New York</p>
+         <div class="footer__wrapper">
+        <section class="footer__details">
+          <h3 class="footer__h3">Address</h3>
+          <p class=""footer__p--margin-0 >503 Brodway Penthouse </br> New York</p>
         </section>
         <!-- Hours -->
-        <section class="inline-block hours">
-          <h3>Hours</h3>
-          <!-- TODO: do I need to reformat?  -->
-          
+        <section class="footer__details">
+          <h3 class="footer__h3">Hours</h3>
           <span class="bold">Monday - Friday:</span> <span class="regular-fw"> 9am - 7pm</span>
           </br>
           <span class="bold">Saturday - Sunday:  <span class="regular-fw">10am - 5pm</span></class=>
-    
         </section>
-        <section class="inline-block socials">
+        <section class="footer__details">
           <!-- Socials -->
-          <h3>Socials</h3>
-          
+          <h3 class="footer__h3">Socials</h3>
           <div>
           <a href="https://www.facebook.com"><img class="icon" src="./assets/Facebook-Icon.svg" alt="Facebook"/></a>
           <a href="https://www.yelp.com"><img class="icon" src="./assets/Yelp-Icon.svg" alt="Yelp"/></a>
@@ -123,7 +113,5 @@
         </section>
         </div>
       </footer>
-
-
   </body>
 </html>

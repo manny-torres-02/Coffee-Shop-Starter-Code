@@ -23,19 +23,22 @@ main section h1 {
   display: inline-block;
 }
 
-.vertical-align-middle {
+/* .vertical-align-middle {
   vertical-align: middle;
-}
+} */
+
+/* .width100 {
+  width: 100%;
+} */
 
 .hero {
   padding: 5.55rem 0;
-}
-
-.width100 {
+  display: inline-block;
+  background-color: var(--nitro-pink);
   width: 100%;
 }
 
-.nitro-coffee-desc {
+.hero__about-nitro-coffee {
   width: 50%;
   display: inline-block;
   vertical-align: middle;
@@ -44,25 +47,62 @@ main section h1 {
   padding-right: 20rem;
 }
 
-.coffeebeans-hero {
+.hero__h1 {
+  padding-bottom: 1.11rem;
+}
+
+.hero__p {
+  padding-bottom: 1.11rem;
+}
+
+.hero__coffeebeans-image {
+  display: inline-block;
   vertical-align: middle;
   padding-left: 9rem;
 }
 
-.products {
+/* products section  */
+.product {
   background-color: var(--light-grey);
   text-align: center;
   padding: 4.44rem 0;
 }
 
-.products h2 {
+.product__section-title {
   margin-top: 0;
   padding-top: 2.22rem;
 }
 
-.products p {
+.product__section-wrapper {
+  text-align: center;
+  margin: 0 0 2.22rem 0;
+}
+
+.product__card {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 18.33rem;
+  height: 24.44rem;
+  padding: 2.22rem 0 0 0;
+  margin: 0 2.22rem 2.22rem 2.22rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  background-color: var(--white);
+}
+
+.product__name {
+  margin-bottom: 0;
+}
+
+.product__price {
   color: var(--nitro-blue);
+  margin-top: 1.11rem;
   font-size: 1.5rem;
+}
+
+.product__image {
+  height: 13.33rem;
 }
 
 .discount-banner {
@@ -80,11 +120,10 @@ main section h1 {
   justify-content: center;
   align-items: center;
   padding: 30px 10px;
-  /* border: 1px solid; */
   height: 22.2rem;
 }
 
-.discount-regular {
+.discount-banner__regular-text {
   display: inline-block;
   vertical-align: middle;
   font-size: 2.5rem;
@@ -96,48 +135,7 @@ main section h1 {
   width: 90%;
 }
 
-.child-element {
-  vertical-align: middle;
-  display: inline-block;
-  background: fuchsia;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
-.discount-bold {
+.discount-banner__bold-text {
   font-size: 2.5rem;
   font-weight: 700;
-}
-
-button {
-  background-color: var(--nitro-blue);
-  color: white;
-  padding: 1.11rem;
-  border: none;
-}
-
-/* Images  */
-.hero {
-  /* height: 280px; */
-}
-
-.product-wrapper {
-  text-align: center;
-  margin: 0 0 2.22rem 0;
-}
-.product {
-  height: 15.567em;
-}
-
-.card {
-  display: inline-block;
-  width: 18.33rem;
-  height: 24.44rem;
-  padding: 1.11rem;
-  margin: 0 2.22rem 2.22rem 2.22rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  background-color: var(--white);
 }

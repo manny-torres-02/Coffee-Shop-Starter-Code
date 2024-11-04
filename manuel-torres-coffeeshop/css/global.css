@@ -31,25 +31,51 @@ body {
   margin: 0%;
 }
 
-/* TODO: Check if you need to remove 
- */
 h1,
 h2 {
   font-size: 3.33rem;
   font-weight: 300;
-  /* color: var(--graphite) */
 }
 
-/* TODO: Check if you need to remove 
- */
 h3,
 .footer h1 {
   font-size: 1.83rem;
   font-weight: 300;
 }
 
-/* nav */
+button {
+  font-size: 1.167rem;
+  font-weight: 400;
+  width: 10rem;
+  padding: 1.11rem;
+  background-color: var(--nitro-blue);
+  color: white;
+  border: none;
+}
 
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-style: bold;
+  font-weight: 700;
+}
+
+.pink {
+  background-color: var(--nitro-pink);
+}
+
+.regular-fw {
+  font-weight: 400;
+}
+
+/* nav */
 .nav {
   background-color: var(--nitro-pink);
 }
@@ -64,6 +90,7 @@ h3,
 .nav__logo-image {
   width: 2.78rem;
   vertical-align: bottom;
+  padding: 0 0.5rem;
 }
 .nav__logo-image--inline-block {
   display: inline-block;
@@ -77,14 +104,17 @@ h3,
 }
 .nav__link--inline-block {
   display: inline-block;
+  padding: 0 0.5rem;
 }
 
 .nav__title {
   margin: 0;
+  padding: 0 0.5rem;
 }
 .nav__list {
   text-decoration: none;
   list-style-type: none;
+  padding: 0 0.5rem;
 }
 
 .nav__list--inline-block {
@@ -93,97 +123,47 @@ h3,
 
 .nav__list-item {
   font-size: 1.167rem;
+  padding: 0 0.5rem;
+  text-decoration: none;
 }
 
 .nav__list-item--inline-block {
   display: inline-block;
 }
 
-/* TODO: Separate this out possibly */
-/* TODO: Double check that this font-size is according to style guide. this better matches the image  */
-
-button {
-  font-size: 1.167rem;
-  font-weight: 400;
-}
-
-nav > .nav__wrapper > a > img,
-nav > .nav__wrapper > a,
-nav > .nav__wrapper > a > h2,
-nav > .nav__wrapper > ul,
-nav > .nav__wrapper > ul > li,
-.menu > li {
-  padding: 0 0.5rem;
-}
-
-nav > .nav__wrapper > ul > li > a {
-  text-decoration: none;
-
+.nav__list-item--graphite {
   color: var(--graphite);
 }
 
-p {
-  font-size: 1rem;
-  font-weight: 400;
+.nav__list-item--no-text-decoration {
+  text-decoration: none;
+  color: var(--graphite);
 }
 
-button {
-  width: 10rem;
-  padding: 1.11rem;
+.nav__list-item--no-text-decoration--blue {
+  color: var(--nitro-blue);
 }
-/* TODO: Is this duplicate? */
+
+.nav__list-item--blue {
+  color: var(--nitro-blue);
+}
+
 .title-box {
   background-color: var(--graphite);
   color: var(--white);
   width: 16.67rem;
   height: 11.11rem;
   margin: 0;
-  /* text-align: center; */
   display: inline-block;
 }
 
 .coffee-circle {
   background-image: url("../assets/coffee-circle.jpg");
-  /* border: #393939 5px solid; */
   text-align: center;
   width: 100%;
   height: 38.89rem;
   background-position: center;
   background-size: center;
-}
-
-.pink {
-  background-color: var(--nitro-pink);
-}
-
-.italic {
-  font-style: italic;
-}
-
-.bold {
-  font-style: bold;
-  font-weight: 700;
-}
-
-.regular-fw {
-  font-weight: 400;
-}
-
-.menu a {
-  color: inherit;
-  text-align: center;
-  text-decoration: none;
-}
-
-.menu-link {
-  text-align: center;
-  font-size: 1.17rem;
-  font-weight: 400;
-}
-
-footer > section > h3 {
-  margin-top: 0;
-  margin-bottom: 0.45rem;
 }
 
 .icon {
@@ -196,25 +176,31 @@ footer > section > h3 {
   margin: auto;
 }
 
-footer {
+.footer {
   height: 13rem;
-  text-align: center;
-  padding: 0 3.333rem;
+  background-color: var(--nitro-pink);
+  padding: 3.333rem;
   text-align: left;
 }
-.address,
-.hours,
-.socials {
+
+.footer__wrapper {
+  vertical-align: middle;
+  padding-top: 1rem;
+}
+
+.footer__h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.footer__details {
+  display: inline-block;
   vertical-align: middle;
   height: 180px;
   width: 280px;
   margin: 0 3.5rem;
 }
-.address > *,
-.hours > *,
-.socials > * {
-  /* margin: 0; */
-}
-.p-top-1rem {
-  padding-top: 1rem;
+
+.footer__p--margin-0 {
+  margin: 0;
 }
