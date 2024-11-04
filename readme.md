@@ -10,15 +10,17 @@
 [x] Coffeeshop 8: Linking
 [x] CoffeeShop 9: Relative Units
 [x] Coffeeshop 10: Styling the Menu Page
-[ ] Coffeeshop 11: card component 
-[ ] CoffeeShop 12:
+[x] Coffeeshop 11: card component
+[x] CoffeeShop 12:
 
 # Submission for coffeeshop CSS concepts
 
-[ ] group selectors
-[ ] back to back
-[ ] one descendant
-[ ] all descendants
-[ ] eve3ry other
-[ ]And selector
-[ ] or selector
+[x] one descendant
+[x] all descendants
+[x] nth child
+[x]And selector
+[x] or selector
+
+Side note on the CSS - I had gone too far and refactored quite a bit in the BEM method.
+
+There are bits and pieces use group selectors and such. Ive gone back and tried to only implement little things.

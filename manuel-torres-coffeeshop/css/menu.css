@@ -56,11 +56,11 @@
   width: 100%;
 }
 
-.menu__section--pink {
+.menu > :nth-child(odd) {
   background-color: var(--nitro-pink);
 }
 
-.menu__section--grey {
+.menu > :nth-child(even) {
   background-color: var(--light-grey);
 }
 
