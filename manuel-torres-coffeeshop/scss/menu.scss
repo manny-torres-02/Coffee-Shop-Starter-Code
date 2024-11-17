@@ -1,0 +1,105 @@
+@use "./partials/global" as global;
+@import "./partials/reset";
+@import "./partials/navbar";
+
+/* Menu nav section */
+.menu-nav {
+  background-color: global.$graphite;
+  display: inline-block;
+  color: global.$white;
+  width: global.$max-width;
+  margin: 0;
+  height: 4.44rem;
+  vertical-align: middle;
+  line-height: 4.44rem;
+  padding-left: 0;
+  text-align: center;
+  font-size: 1.75rem;
+
+  &__list-item {
+    text-align: center;
+    font-size: 1.17rem;
+    line-height: 2rem;
+    font-weight: global.$font-weight-400;
+    display: inline-block;
+  }
+
+  &__link {
+    color: inherit;
+    padding: 0 1rem;
+    border-left: global.$nitro-blue 0.22rem solid;
+    text-decoration: none;
+  }
+}
+
+/*  menu  */
+.coffee-circle {
+  background-image: url("../assets/coffee-circle.jpg");
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: global.$max-width;
+  height: 38.89rem;
+  background-position: center;
+  background-size: center;
+}
+
+.menu-hero {
+  width: 16.67rem;
+  height: 11.11rem;
+  position: relative;
+  background-color: global.$graphite;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  line-height: 11.11rem;
+
+  h1 {
+    display: inline-block;
+    line-height: 11.11rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__border {
+    width: global.$max-width;
+    height: 100%;
+    position: absolute;
+    border: 5px solid global.$nitro-blue;
+    top: -30px;
+    left: -30px;
+    z-index: 10;
+  }
+}
+
+.menu {
+  > :nth-child(odd) {
+    background-color: global.$nitro-pink;
+  }
+
+  > :nth-child(even) {
+    background-color: global.$light-grey;
+  }
+
+  &__section {
+    padding-top: 1.11rem;
+    text-align: center;
+    height: 50%;
+    padding-bottom: 0.67rem;
+    width: global.$max-width;
+  }
+
+  &__food-description {
+    width: 35%;
+    margin: auto;
+    font-style: italic;
+  }
+
+  &__price {
+    color: global.$nitro-blue;
+    margin-top: 0.25rem;
+  }
+}
+

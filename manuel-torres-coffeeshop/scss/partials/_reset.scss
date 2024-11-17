@@ -1,0 +1,61 @@
+@use "../partials/global" as global;
+
+html {
+  font-size: global.$font-size-base;
+  height: 100%;
+  width: global.$max-width;
+  margin: 0;
+  font-family: global.$open-sans;
+}
+
+body {
+  font-family: global.$open-sans;
+  font-weight: global.$font-weight-400;
+  color: global.$graphite;
+  height: 100%;
+  width: global.$max-width;
+  margin: 0%;
+}
+
+h1,
+h2 {
+  font-size: 3.33rem;
+  font-weight: global.$font-weight-300;
+}
+
+h3 {
+  font-size: 1.83rem;
+  font-weight: 300;
+}
+
+button {
+  font-size: 1.167rem;
+  font-weight: global.$font-weight-400;
+  width: 10rem;
+  padding: 1.11rem;
+  background-color: global.$nitro-blue;
+  color: white;
+  border: none;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: global.$font-weight-400;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-style: bold;
+  font-weight: 700;
+}
+
+.pink {
+  background-color: global.$nitro-pink;
+}

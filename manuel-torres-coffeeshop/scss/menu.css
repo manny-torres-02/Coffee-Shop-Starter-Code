@@ -1,0 +1,275 @@
+/* Typography */
+/* Typography */
+html {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #393939;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+
+h1,
+h2 {
+  font-size: 3.33rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.83rem;
+  font-weight: 300;
+}
+
+button {
+  font-size: 1.167rem;
+  font-weight: 400;
+  width: 10rem;
+  padding: 1.11rem;
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-style: bold;
+  font-weight: 700;
+}
+
+.pink {
+  background-color: #fff0ed;
+}
+
+/* Typography */
+/* Typography */
+html {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #393939;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+
+h1,
+h2 {
+  font-size: 3.33rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.83rem;
+  font-weight: 300;
+}
+
+button {
+  font-size: 1.167rem;
+  font-weight: 400;
+  width: 10rem;
+  padding: 1.11rem;
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-style: bold;
+  font-weight: 700;
+}
+
+.pink {
+  background-color: #fff0ed;
+}
+
+.nav {
+  background-color: #fff0ed;
+}
+.nav__wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 8rem;
+  padding: 1.5rem 0 1.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.nav__logo-image {
+  vertical-align: bottom;
+  display: inline-block;
+}
+.nav__link {
+  display: inline-block;
+  color: #393939;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.83rem;
+}
+.nav__link--inline-block {
+  padding: 0 0.5rem;
+  display: inline-block;
+}
+.nav__title {
+  font-weight: 300;
+  margin: 0;
+}
+.nav__list {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 1rem;
+}
+.nav__list-item {
+  font-size: 1.167rem;
+  padding: 0 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav__list-item--graphite {
+  color: #393939;
+}
+.nav__list-item--no-text-decoration {
+  text-decoration: none;
+  color: #393939;
+}
+.nav__list-item--no-text-decoration--blue {
+  color: #5bacc3;
+}
+.nav__list-item--blue {
+  color: #5bacc3;
+}
+.nav__logo-image {
+  width: 2.78rem;
+}
+
+/* Menu nav section */
+.menu-nav {
+  background-color: #393939;
+  display: inline-block;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  height: 4.44rem;
+  vertical-align: middle;
+  line-height: 4.44rem;
+  padding-left: 0;
+  text-align: center;
+  font-size: 1.75rem;
+}
+.menu-nav__list-item {
+  text-align: center;
+  font-size: 1.17rem;
+  line-height: 2rem;
+  font-weight: 400;
+  display: inline-block;
+}
+.menu-nav__link {
+  color: inherit;
+  padding: 0 1rem;
+  border-left: #5bacc3 0.22rem solid;
+  text-decoration: none;
+}
+
+/*  menu  */
+.coffee-circle {
+  background-image: url("../assets/coffee-circle.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 38.89rem;
+  background-position: center;
+  background-size: center;
+}
+
+.menu-hero {
+  width: 16.67rem;
+  height: 11.11rem;
+  position: relative;
+  background-color: #393939;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  line-height: 11.11rem;
+}
+.menu-hero h1 {
+  display: inline-block;
+  line-height: 11.11rem;
+  text-align: center;
+  margin: 0;
+}
+.menu-hero__border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid #5bacc3;
+  top: -30px;
+  left: -30px;
+  z-index: 10;
+}
+
+.menu > :nth-child(odd) {
+  background-color: #fff0ed;
+}
+.menu > :nth-child(even) {
+  background-color: rgba(247, 247, 247, 0.968627451);
+}
+.menu__section {
+  padding-top: 1.11rem;
+  text-align: center;
+  height: 50%;
+  padding-bottom: 0.67rem;
+  width: 100%;
+}
+.menu__food-description {
+  width: 35%;
+  margin: auto;
+  font-style: italic;
+}
+.menu__price {
+  color: #5bacc3;
+  margin-top: 0.25rem;
+}/*# sourceMappingURL=menu.css.map */

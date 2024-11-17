@@ -1,61 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="../css/global.css" />
-    <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../scss/menu.css" />
     <title>Coffee Shop - Menu</title>
   </head>
+
   <body>
     <header>
+      <!-- Nav  -->
       <nav class="nav">
         <div class="nav__wrapper">
-          <a class="nav__link--inline-block" href="../index.html">
-            <img
-              class="nav__logo-image nav__logo-image--inline-block"
-              src="../assets/coffee-beans-logo-and-footer.svg"
-            />
-          </a>
-          <a
-            class="nav__link nav__link--inline-block"
-            href="../index.html"
-            target="_blank"
-          >
-            <h2 class="nav__title">nitro</h2>
-          </a>
+          <div class="nav__left">
+            <a class="nav__link--inline-block" href="../index.html">
+              <img class="nav__logo-image nav__logo-image--inline-block"
+                src="../assets/coffee-beans-logo-and-footer.svg" alt="coffeebeans icon" />
+            </a>
+            <a class="nav__link nav__link--inline-block" href="../index.html" target="_blank">
+              <h2 class="nav__title">nitro</h2>
+            </a>
+          </div>
           <ul class="nav__list nav__list--inline-block">
-            <li
-              class="nav__list-item  nav__list-item--graphite"
-            >
-              <a
-                class="nav__list-item--no-text-decoration"
-                href="../index.html"
-              >
+            <li class="nav__list-item  nav__list-item--graphite">
+              <a class="nav__list-item--no-text-decoration" href="../index.html">
                 ABOUT
               </a>
             </li>
-            <li
-              class="nav__list-item  nav__list-item--graphite"
-            >
-              <a
-                class="nav__list-item--no-text-decoration"
-                href="../pages/menu.html"
-              >
+            <li class="nav__list-item  nav__list-item--graphite">
+              <a class="nav__list-item--no-text-decoration" href="../pages/menu.html">
                 SHOP NOW
               </a>
             </li>
-            <li
-              class="nav__list-item  nav__list-item--blue"
-            >
-              <a
-                class="nav__list-item--no-text-decoration nav__list-item--no-text-decoration--blue"
-                href="../pages/menu.html"
-              >
+            <li class="nav__list-item  nav__list-item--blue">
+              <a class="nav__list-item--no-text-decoration nav__list-item--no-text-decoration--blue"
+                href="../pages/menu.html">
                 MENU
               </a>
             </li>
@@ -63,35 +45,36 @@
         </div>
       </nav>
       <div class="coffee-circle">
-        <h1 class="">MENU</h1>
+
+        <div class="menu-hero">
+          <span class="menu-hero__border">
+          </span>
+          <h1> MENU</h1>
+          <!-- <h1 class=""></h1> -->
+        </div>
       </div>
       <ul class="menu-nav">
         <li class="menu-nav__list-item">
           <a class="menu-nav__link" href="#hot-drinks">HOT DRINKS</a>
-          <li class="menu-nav__list-item">
-            <a class="menu-nav__link" href="#cold-drinks">COLD DRINKS</a>
-          </li>
-          <li class="menu-nav__list-item">
-            <a class="menu-nav__link" href="#pastries">PASTRIES</a>
-          </li>
+        </li>
+        <li class="menu-nav__list-item">
+          <a class="menu-nav__link" href="#cold-drinks">COLD DRINKS</a>
+        </li>
+        <li class="menu-nav__list-item">
+          <a class="menu-nav__link" href="#pastries">PASTRIES</a>
         </li>
       </ul>
     </header>
     <main class="menu">
-      <section class="menu__section menu__section--pink" id="hot-drinks">
+      <section class="menu__section" id="hot-drinks">
         <h2>Hot Drinks</h2>
-
         <h3>In-house Brew</h3>
-
         <p class="menu__food-description">
           Our in-house medium roast is a classic balance between sweet vanilla,
           nutty hazelnut, and a smooth low acidity to bring everything together.
         </p>
-
         <p class="menu__price">$2.99</p>
-
         <h3>Espresso</h3>
-
         <p class="menu__food-description">
           A balance between bold and smooth, powerful and sweet, our signature
           espresso blend is a complex flavor profile. It features strong notes
@@ -102,37 +85,30 @@
       </section>
       <section class="menu__section menu__section--grey" id="cold-drinks">
         <h2>Cold Drinks</h2>
-
         <h3>Cold Brew</h3>
-
         <p class="menu__food-description">
           Our bright and delicious coffee blend, brewed over ice to give you a
           cold coffee freshness with all the flavor of our amazing in-house
           coffee.
         </p>
         <p class="menu__price">$3.99</p>
-
         <h3>Iced Chai Latte</h3>
-
         <p class="menu__food-description">
           A creamy drink with a kick, this drink features spicy chai tea blended
           with your choice of milk and poured over ice.
         </p>
         <p class="menu__price">$6.99</p>
-      </section> 
-      <section class="menu__section menu__section--pink" id="pastries">
+      </section>
+      <section class="menu__section " id="pastries">
         <h2>Pastries</h2>
         <h3>Bacon Oatmeal Raisin Cookie</h3>
-
         <p class="menu__food-description">
           An infused bacon, sugar and egg mixture is folded into a perfect blend
           of oats, flour, raisins and cinnamon to create a soft and chewy
           textured cookie.
         </p>
         <p class="menu__price">$3.50</p>
-
         <h3>Blueberry,Lemon and Thyme Muffin</h3>
-
         <p class="menu__food-description">
           Tart and sweet, this classic blueberry and lemon combination comes
           with an earthy twist.
@@ -141,4 +117,5 @@
       </section>
     </main>
   </body>
+
 </html>

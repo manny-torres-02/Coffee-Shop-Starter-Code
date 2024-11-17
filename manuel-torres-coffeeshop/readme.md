@@ -12,6 +12,9 @@
 [x] Coffeeshop 10: Styling the Menu Page
 [x] Coffeeshop 11: card component
 [x] CoffeeShop 12:
+[x] CoffeeShop 13: update Card Component (Flexbox)
+[x] CoffeeShop 14:  Page Layout Using Flexbox
+[ ] Coffeeshop 15: 
 
 # Submission for coffeeshop CSS concepts
 

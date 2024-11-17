@@ -1,0 +1,75 @@
+@use "../partials/global" as global;
+@import "../partials/reset";
+
+.nav {
+  @include global.background-color(global.$nitro-pink);
+
+  &__wrapper {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 8rem;
+    padding: 1.5rem 0 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  &__logo-image {
+    vertical-align: bottom;
+    display: inline-block;
+  }
+
+  &__link {
+    display: inline-block;
+    color: global.$graphite;
+    text-decoration: none;
+    font-weight: global.$font-weight-300;
+    font-size: 1.83rem;
+  }
+
+  &__link--inline-block {
+    padding: 0 0.5rem;
+    display: inline-block;
+  }
+
+  &__title {
+    font-weight: global.$font-weight-300;
+    margin: 0;
+  }
+
+  &__list {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 1rem;
+  }
+
+  &__list-item {
+    font-size: 1.167rem;
+    padding: 0 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  &__list-item--graphite {
+    color: global.$graphite;
+  }
+
+  &__list-item--no-text-decoration {
+    text-decoration: none;
+    color: global.$graphite;
+  }
+
+  &__list-item--no-text-decoration--blue {
+    color: global.$nitro-blue;
+  }
+
+  &__list-item--blue {
+    color: global.$nitro-blue;
+  }
+
+  &__logo-image {
+    width: 2.78rem;
+  }
+}
