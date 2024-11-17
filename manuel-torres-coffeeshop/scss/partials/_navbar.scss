@@ -1,6 +1,18 @@
 @use "../partials/global" as global;
 @import "../partials/reset";
 
+%inline-block {
+  display: inline-block;
+}
+
+%text-decoration-none {
+  text-decoration: none;
+}
+
+%blue {
+  color: global.$nitro-blue;
+}
+
 .nav {
   @include global.background-color(global.$nitro-pink);
 
@@ -27,11 +39,8 @@
     text-decoration: none;
     font-weight: global.$font-weight-300;
     font-size: 1.83rem;
-  }
-
-  &__link--inline-block {
     padding: 0 0.5rem;
-    display: inline-block;
+    @extend %inline-block;
   }
 
   &__title {
@@ -50,26 +59,16 @@
     padding: 0 0.5rem;
     text-decoration: none;
     display: inline-block;
-  }
-
-  &__list-item--graphite {
     color: global.$graphite;
-  }
-
-  &__list-item--no-text-decoration {
-    text-decoration: none;
-    color: global.$graphite;
-  }
-
-  &__list-item--no-text-decoration--blue {
-    color: global.$nitro-blue;
-  }
-
-  &__list-item--blue {
-    color: global.$nitro-blue;
+    @extend %text-decoration-none;
   }
 
   &__logo-image {
     width: 2.78rem;
+  }
+
+  &__blue {
+    @extend %blue;
+    @extend %text-decoration-none
   }
 }

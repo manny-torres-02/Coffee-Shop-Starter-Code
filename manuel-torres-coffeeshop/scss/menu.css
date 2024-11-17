@@ -122,6 +122,18 @@ p {
   background-color: #fff0ed;
 }
 
+.nav__link {
+  display: inline-block;
+}
+
+.nav__blue, .nav__list-item {
+  text-decoration: none;
+}
+
+.nav__blue {
+  color: #5bacc3;
+}
+
 .nav {
   background-color: #fff0ed;
 }
@@ -146,10 +158,7 @@ p {
   text-decoration: none;
   font-weight: 300;
   font-size: 1.83rem;
-}
-.nav__link--inline-block {
   padding: 0 0.5rem;
-  display: inline-block;
 }
 .nav__title {
   font-weight: 300;
@@ -165,24 +174,11 @@ p {
   padding: 0 0.5rem;
   text-decoration: none;
   display: inline-block;
-}
-.nav__list-item--graphite {
   color: #393939;
-}
-.nav__list-item--no-text-decoration {
-  text-decoration: none;
-  color: #393939;
-}
-.nav__list-item--no-text-decoration--blue {
-  color: #5bacc3;
-}
-.nav__list-item--blue {
-  color: #5bacc3;
 }
 .nav__logo-image {
   width: 2.78rem;
 }
-
 /* Menu nav section */
 .menu-nav {
   background-color: #393939;
