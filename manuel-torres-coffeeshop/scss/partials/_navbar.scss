@@ -21,20 +21,16 @@
     margin: 0 auto;
     height: 8rem;
     padding: 1.5rem 0 1.5rem 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: space-between;
+
+    @include global.flexbox(row, nowrap, flex-end, space-between);
   }
 
   &__logo-image {
     vertical-align: bottom;
-    display: inline-block;
+    @extend %inline-block;
   }
 
   &__link {
-    display: inline-block;
     color: global.$graphite;
     text-decoration: none;
     font-weight: global.$font-weight-300;
@@ -58,8 +54,8 @@
     font-size: 1.167rem;
     padding: 0 0.5rem;
     text-decoration: none;
-    display: inline-block;
     color: global.$graphite;
+    @extend %inline-block;
     @extend %text-decoration-none;
   }
 
@@ -69,6 +65,6 @@
 
   &__blue {
     @extend %blue;
-    @extend %text-decoration-none
+    @extend %text-decoration-none;
   }
 }

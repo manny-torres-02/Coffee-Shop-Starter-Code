@@ -122,7 +122,7 @@ p {
   background-color: #fff0ed;
 }
 
-.nav__link {
+.nav__list-item, .nav__link, .nav__logo-image {
   display: inline-block;
 }
 
@@ -150,10 +150,8 @@ p {
 }
 .nav__logo-image {
   vertical-align: bottom;
-  display: inline-block;
 }
 .nav__link {
-  display: inline-block;
   color: #393939;
   text-decoration: none;
   font-weight: 300;
@@ -173,7 +171,6 @@ p {
   font-size: 1.167rem;
   padding: 0 0.5rem;
   text-decoration: none;
-  display: inline-block;
   color: #393939;
 }
 .nav__logo-image {
