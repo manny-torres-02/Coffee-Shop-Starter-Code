@@ -13,8 +13,9 @@
 [x] Coffeeshop 11: card component
 [x] CoffeeShop 12:
 [x] CoffeeShop 13: update Card Component (Flexbox)
-[x] CoffeeShop 14:  Page Layout Using Flexbox
-[ ] Coffeeshop 15: 
+[x] CoffeeShop 14: Page Layout Using Flexbox
+[ ] Coffeeshop 15:
+test
 
 # Submission for coffeeshop CSS concepts
 
